@@ -6,6 +6,9 @@ health1 = 60
 health2 = 125
 health3 = 100
 health4 = 90
+def say_hello(name, health = 100)
+  "I'm #{name.capitalize} with a health of #{health}."
+end
 
 current_time = Time.new
 formatted_time = current_time.strftime("%A %m/%d/%Y at %I:%M%p")
