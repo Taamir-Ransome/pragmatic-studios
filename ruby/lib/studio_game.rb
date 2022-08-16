@@ -2,10 +2,6 @@
 # frozen string literal: true
 
 
-health1 = 60
-health2 = 125
-health3 = 100
-health4 = 90
 def say_hello(name, health = 100)
   "I'm #{name.capitalize} with a health of #{health}."
 end
