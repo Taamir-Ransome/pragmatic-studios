@@ -1,10 +1,6 @@
 # string literal comment
 # frozen string literal: true
 
-name1 = 'larry'
-name2 = 'curly'
-name3 = 'moe'
-name4 = 'shemp'
 
 health1 = 60
 health2 = 125
